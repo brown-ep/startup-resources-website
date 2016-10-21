@@ -12,25 +12,91 @@
 
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/landing.css">
 
         <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-      <h1>Startup Resources</h1>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <!-- Header Title and Image -->
+    <header class="header-image">
+        <div class="headline">
+            <div class="container">
+                <h1>Innovate on the Hill</h1>
+                <h2>Where entrepreneurship starts at Brown and RISD</h2>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <hr class="featurette-divider">
+
+        <!-- Link to Startup Resources -->
+
+        <div class="featurette" id="resources">
+            <a href="#"><img class="featurette-image img-circle img-responsive pull-right" src="assets/img/startup-brown.png"></a>
+            <h2 class="featurette-heading">
+                Do you have a startup?
+            </h2>
+            <p class="lead">
+                We can help you get the resources you need. Gain access
+                to the best grants, events, programs, and mentorship that Brown and RISD have to offer.
+            </p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Link to Educational Resources -->
+        <div class="featurette" id="education">
+            <a href="#"><img class="featurette-image img-circle img-responsive pull-left" src="assets/img/ep-logo.png"></a>
+            <h2 class="featurette-heading">
+                Do you want to get inspired?
+            </h2>
+            <p class="lead">
+                The entrepreneurial world is waiting. Explore our
+                collection of video lectures, seminars, books, and courses
+                that will make you a better innovator.
+            </p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Link to Student Startups -->
+        <div class="featurette" id="startups">
+            <a href="#"><img class="featurette-image img-circle img-responsive pull-right" src="assets/img/hack-brown.png"></a>
+            <h2 class="featurette-heading">
+                Do you want to see the future?
+            </h2>
+            <p class="lead">
+                Our friends have big ideas. Learn about all the student 
+                ventures and projects on campus.
+            </p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Footer -->
+        <!-- <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>Contact us.</h3>
+                </div>
+            </div>
+        </footer> -->
+
+    </div>
+
+    <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
 
         <script src="assets/js/vendor/bootstrap.min.js"></script>
 
         <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
+        <script src="assets/js/landing.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!--
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -39,5 +105,6 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
+        -->
     </body>
 </html>
