@@ -17,7 +17,7 @@
     <meta name="HandheldFriendly" content="true" />
     <meta name="MobileOptimized" content="320" />
 
-    <link href="http://fonts.googleapis.com/css?family=Kristi|Alegreya+Sans:300,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Kristi|Alegreya+Sans:300,800" rel="stylesheet" type="text/css">
     <link href="assets/css/startup-resources/font-awesome.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/startup-resources/timelify.css">
@@ -59,7 +59,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/startup-resources/component.css" />
 
     <!-- Google Font -->
-    <link target="_blank" href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+    <link target="_blank" href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
 
     <!-- Modernizr -->
     <script src="assets/js/shared/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -99,34 +99,34 @@
             <div class="row">
                 <div class="span12">
                     <div id="steps-container">
-                        <div id="project-stages" class="ui stackable steps">
-                            <div class="link step">
+                        <div id="project-stages" class="ui fluid steps">
+                            <div class="link step" data-option-value=".ideation">
                                 <div><img class="icon step-icon" src="assets/img/lightbulb.png"></div>
                                 <div class="content">
                                     <div class="title">Ideation</div>
                                     <!--                                <div class="description">Choose your shipping options</div>-->
                                 </div>
                             </div>
-                            <div class="link step">
+                            <div class="link step" data-option-value=".prototyping">
                                 <div><img class="icon step-icon" src="assets/img/protractor.png"></div>
                                 <div class="content">
                                     <div class="title">Prototyping</div>
                                     <!--                                <div class="description">Enter billing information</div>-->
                                 </div>
                             </div>
-                            <div class="link step">
+                            <div class="link step" data-option-value=".testing">
                                 <div><img class="icon step-icon" src="assets/img/timer.png"></div>
                                 <div class="content">
                                     <div class="title">Testing</div>
                                 </div>
                             </div>
-                            <div class="link step">
+                            <div class="link step" data-option-value=".funding">
                                 <div><img class="icon step-icon" src="assets/img/money.png"></div>
                                 <div class="content">
                                     <div class="title">Funding</div>
                                 </div>
                             </div>
-                            <div class="link step">
+                            <div class="link step" data-option-value=".launching">
                                 <div><img class="icon step-icon" src="assets/img/rocket.png"></div>
                                 <div class="content">
                                     <div class="title">Launching</div>
@@ -145,7 +145,7 @@
                         <ul id="filters" class="option-set" data-option-key="filter">
                             <li class="type">TYPE</li>
                             <li><a target="_blank" href="#filter" data-option-value="*" class="selected">All</a></li>
-                            <li><a target="_blank" href="#filter" data-option-value=".product">Already have a product or idea?</a></li>
+                            <li><a target="_blank" href="#filter" data-option-value=".initiatives">Initiatives</a></li>
                             <li><a target="_blank" href="#filter" data-option-value=".organizations">Organizations</a></li>
                             <li><a target="_blank" href="#filter" data-option-value=".social">Social Entrepreneurship</a></li>
                             <li><a target="_blank" href="#filter" data-option-value=".conferences">Conferences</a></li>
@@ -160,7 +160,7 @@
                     <div class="row">
                         <section id="projects">
                             <ul class="grid cs-style-4" id="thumbs">
-                                <li class="item-thumbs span1 organizations">
+                                <li class="item-thumbs span1 organizations ideation">
                                     <figure>
                                         <div><img src="assets/img/logos/epLogo.png" alt="Brown EP"></div>
                                         <figcaption>
@@ -170,7 +170,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 product organizations">
+                                <li class="item-thumbs span1 initiatives organizations ideation prototyping testing">
                                     <figure>
                                         <div><img src="assets/img/logos/hack@BrownLogo.png" alt="Hack@Brown"></div>
                                         <figcaption>
@@ -180,7 +180,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 organizations">
+                                <li class="item-thumbs span1 organizations ideation">
                                     <figure>
                                         <div><img src="assets/img/logos/eShipLogo.png" alt="E'Ship"></div>
                                         <figcaption>
@@ -191,7 +191,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 learning conferences">
+                                <li class="item-thumbs span1 learning conferences ideation">
                                     <figure>
                                         <div><img src="assets/img/logos/startup@brown.png" alt="Startup@Brown"></div>
                                         <figcaption>
@@ -202,7 +202,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 organizations social">
+                                <li class="item-thumbs span1 organizations social ideation">
                                     <figure>
                                         <div><img src="assets/img/logos/swearerCenter.png" alt="Swearer Center"></div>
                                         <figcaption>
@@ -212,7 +212,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 social">
+                                <li class="item-thumbs span1 social ideation">
                                     <figure>
                                         <div><img src="assets/img/logos/swearerSparks.png" alt="Swearer Sparks"></div>
                                         <figcaption>
@@ -222,7 +222,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 organizations conferences design">
+                                <li class="item-thumbs span1 organizations conferences design ideation">
                                     <figure>
                                         <div><img src="assets/img/logos/bwbd2.png" alt="Better World by Design"></div>
                                         <figcaption>
@@ -232,7 +232,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 conferences social">
+                                <li class="item-thumbs span1 conferences social ideation prototyping">
                                     <figure>
                                         <div><img src="assets/img/logos/seeed.png" alt="SEEED"></div>
                                         <figcaption>
@@ -242,7 +242,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 product social">
+                                <li class="item-thumbs span1 initiative social testing funding launching">
                                     <figure>
                                         <div><img src="assets/img/logos/sii.png" alt="Social Innovation Initiative"></div>
                                         <figcaption>
@@ -252,7 +252,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 product social design learning">
+                                <li class="item-thumbs span1 initiatives social design learning ideation prototyping testing">
                                     <figure>
                                         <div><img src="assets/img/logos/dojo.png" alt="Innovation Dojo"></div>
                                         <figcaption>
@@ -262,7 +262,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 organizations design social">
+                                <li class="item-thumbs span1 organizations design social ideation prototyping">
                                     <figure>
                                         <div><img src="assets/img/logos/dfa.png" alt="Better World by Design"></div>
                                         <figcaption>
@@ -272,7 +272,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 learning design">
+                                <li class="item-thumbs span1 learning design ideation">
                                     <figure>
                                         <div><img src="assets/img/logos/cd-cf.png" alt="Critical Design | Critical Futures"></div>
                                         <figcaption>
@@ -282,7 +282,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 learning organizations">
+                                <li class="item-thumbs span1 learning organizations ideation">
                                     <figure>
                                         <div><img src="assets/img/logos/hcri.png" alt="Humanity Centered Robotics"></div>
                                         <figcaption>
@@ -292,7 +292,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 design learning organizations">
+                                <li class="item-thumbs span1 design learning organizations ideation prototyping testing">
                                     <figure>
                                         <div><img src="assets/img/logos/designPlusHealth.png" alt="Design+Health"></div>
                                         <figcaption>
@@ -302,7 +302,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 product">
+                                <li class="item-thumbs span1 initiatives funding launching">
                                     <figure>
                                         <div><img src="assets/img/logos/ventureFellowship.png" alt="Brown Venture Fellowship"></div>
                                         <figcaption>
@@ -312,7 +312,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 learning">
+                                <li class="item-thumbs span1 learning prototyping testing">
                                     <figure>
                                         <div><img src="assets/img/logos/h@bWorkshops.png" alt="Hack@Brown Workshops"></div>
                                         <figcaption>
@@ -322,7 +322,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 product">
+                                <li class="item-thumbs span1 initiatives testing funding launching">
                                     <figure>
                                         <div><img src="assets/img/logos/ePartners.png" alt="E-Partners"></div>
                                         <figcaption>
@@ -332,7 +332,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 conferences">
+                                <li class="item-thumbs span1 conferences ideation">
                                     <figure>
                                         <div><img src="assets/img/logos/synapse.png" alt="Brown EP Synapse"></div>
                                         <figcaption>
@@ -342,7 +342,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 learning design">
+                                <li class="item-thumbs span1 learning design ideation">
                                     <figure>
                                         <div><img src="assets/img/logos/creativeMind.png" alt="Brown Creative Mind"></div>
                                         <figcaption>
@@ -352,7 +352,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 product">
+                                <li class="item-thumbs span1 initiatives launching">
                                     <figure>
                                         <div><img src="assets/img/logos/tvo.png" alt="Brown Technology Ventures Office"></div>
                                         <figcaption>
@@ -362,7 +362,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 organizations design">
+                                <li class="item-thumbs span1 organizations design ideation">
                                     <figure>
                                         <div><img src="assets/img/logos/steam.png" alt="Brown STEAM"></div>
                                         <figcaption>
@@ -372,7 +372,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 product social">
+                                <li class="item-thumbs span1 initiatives social testing funding launching">
                                     <figure>
                                         <div><img src="assets/img/logos/embark.png" alt="Brown Embark Fellowship"></div>
                                         <figcaption>
@@ -382,7 +382,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 product social">
+                                <li class="item-thumbs span1 initiatives social funding launching">
                                     <figure>
                                         <div><img src="assets/img/logos/ventureLaunchFund.png" alt="Brown Embark Fellowship"></div>
                                         <figcaption>
@@ -392,7 +392,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 learning">
+                                <li class="item-thumbs span1 learning ideation">
                                     <figure>
                                         <div><img src="assets/img/logos/h@bLearning.png" alt="Hack@Brown Learning Resources"></div>
                                         <figcaption>
@@ -402,7 +402,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 organizations design">
+                                <li class="item-thumbs span1 organizations design ideation">
                                     <figure>
                                         <div><img src="assets/img/logos/risdSteam.png" alt="RISD STEAM"></div>
                                         <figcaption>
@@ -412,7 +412,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 product">
+                                <li class="item-thumbs span1 initiatives ideation">
                                     <figure>
                                         <div><img src="assets/img/logos/engagedScholars.png" alt="Engaged Scholars Program"></div>
                                         <figcaption>
@@ -422,7 +422,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 social product">
+                                <li class="item-thumbs span1 social initiatives ideation prototyping testing">
                                     <figure>
                                         <div><img src="assets/img/logos/triLab.png" alt="TRI Lab"></div>
                                         <figcaption>
@@ -432,7 +432,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 product">
+                                <li class="item-thumbs span1 initiatives funding">
                                     <figure>
                                         <div><img src="assets/img/logos/eFellows.png" alt="E-Fellows"></div>
                                         <figcaption>
@@ -442,7 +442,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 social product">
+                                <li class="item-thumbs span1 social initiatives funding launching">
                                     <figure>
                                         <div><img src="assets/img/logos/sif.png" alt="Social Innovation Fellowship"></div>
                                         <figcaption>
@@ -452,7 +452,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 product design">
+                                <li class="item-thumbs span1 initiatives design ideation prototyping">
                                     <figure>
                                         <div><img src="assets/img/logos/brownDesignWorkshop.png" alt="Brown Design Workshop"></div>
                                         <figcaption>
@@ -462,7 +462,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 learning design">
+                                <li class="item-thumbs span1 learning design ideation">
                                     <figure>
                                         <div><img src="assets/img/logos/steamStudio.png" alt="Steam STUDIO"></div>
                                         <figcaption>
@@ -472,7 +472,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 learning organizations">
+                                <li class="item-thumbs span1 learning organizations ideation prototyping">
                                     <figure>
                                         <div><img src="assets/img/logos/brownCS.png" alt="Brown CS"></div>
                                         <figcaption>
@@ -482,7 +482,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 social product">
+                                <li class="item-thumbs span1 social initiatives prototyping launching testing">
                                     <figure>
                                         <div><img src="assets/img/logos/blab.png" alt="Summer B-Lab"></div>
                                         <figcaption>
@@ -492,7 +492,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 facebook-groups">
+                                <li class="item-thumbs span1 facebook-groups ideation">
                                     <figure>
                                         <div><img src="assets/img/logos/fbStartups.png" alt="Startups@Brown"></div>
                                         <figcaption>
@@ -502,7 +502,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 design facebook-groups">
+                                <li class="item-thumbs span1 design facebook-groups ideation">
                                     <figure>
                                         <div><img src="assets/img/logos/fbDesign.png" alt="Design@Brown"></div>
                                         <figcaption>
@@ -512,7 +512,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 facebook-groups">
+                                <li class="item-thumbs span1 facebook-groups ideation">
                                     <figure>
                                         <div><img src="assets/img/logos/fbCS.png" alt="Computer Science"></div>
                                         <figcaption>
@@ -522,7 +522,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 facebook-groups">
+                                <li class="item-thumbs span1 facebook-groups ideation">
                                     <figure>
                                         <div><img src="assets/img/logos/fbBrownEntrepreneurs.png" alt="Brown University Entrepreneurs"></div>
                                         <figcaption>
@@ -533,7 +533,7 @@
                                         </figcaption>
                                     </figure>
                                 </li>
-                                <li class="item-thumbs span1 design facebook-groups">
+                                <li class="item-thumbs span1 design facebook-groups ideation">
                                     <figure>
                                         <div><img src="assets/img/logos/fbSteam.png" alt="Brown STEAM Initiative"></div>
                                         <figcaption>
@@ -551,6 +551,7 @@
                 <div class="span2">
                     <div id="timeline-container">
                         <div class="timeline">
+<!--
                             <h2>Oct 2016</h2>
                             <ul class="timeline-items">
                                 <li class="is-hidden timeline-item centered">
@@ -561,16 +562,17 @@
                                     <time>October 1, 2016</time>
                                 </li>
                             </ul>
-                            <h2>Feb 2016</h2>
+                            <h2>Feb 2017</h2>
                             <ul class="timeline-items">
                                 <li class="is-hidden timeline-item centered">
                                     <h3>Hack at Brown</h3>
                                     <hr>
-                                    <p>Apply <a href="http://2017.hackatbrown.org/">here</a>.</p>
+                                    <p>Apply <a href="http://2017.hackatbrown.org/">here</a> (applications opening soon).</p>
                                     <hr>
                                     <time>February 4-5, 2016</time>
                                 </li>
                             </ul>
+-->
                         </div>
                     </div>
                 </div>
@@ -592,10 +594,6 @@
     <!-- jQuery Core -->
 
     <script src="assets/js/startup-resources/jquery.timelify.js"></script>
-    <script>
-        $('.timeline').timelify();
-
-    </script>
 
     <script src="assets/js/startup-resources/bootstrap.min.js"></script>
     <!-- Bootstrap -->

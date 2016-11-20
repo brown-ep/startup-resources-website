@@ -1447,7 +1447,7 @@ footer .credits {
 
 #timeline-container {
     width: 250px;
-    margin: 0 auto;
+/*    margin: 0 auto;*/
     padding: 0px;
     /*
     background: rgba(255, 255, 255, 0.82);
@@ -1479,14 +1479,22 @@ footer .credits {
     margin: 0 0 0 0;
 }
 
+/*
 #steps-container {
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     padding-bottom: 40px;
 }
+*/
 
+#steps-container {
+    padding-bottom: 40px;
+}
 .step-icon {
     width: 30px;
     padding-right: 10px;
+}
+@media only screen and (max-width: 767px) {
+    .ui.steps .step {
+    width: auto !important;
 }

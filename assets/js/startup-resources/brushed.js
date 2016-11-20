@@ -341,7 +341,7 @@ $(document).ready(function(){
 	BRUSHED.menu();
 	BRUSHED.goSection();
 	BRUSHED.goUp();
-	BRUSHED.filter();
+	//BRUSHED.filter();
 	BRUSHED.scrollToTop();
 	BRUSHED.utils();
 	BRUSHED.accordion();
