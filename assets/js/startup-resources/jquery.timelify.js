@@ -19,8 +19,8 @@ $.fn.timelify = function (options) {
         animLeft: "bounceInLeft",
         animRight: "bounceInRight",
         animCenter: "bounceInUp",
-        animSpeed: 300,
-        offset: 150
+        animSpeed: 400,
+        offset: 25
     }, options);
 
     var elem = this;

@@ -6,17 +6,48 @@ $(document).ready(function () {
     }
     var events = [
         new TEvent("<li class=\"is-hidden timeline-item centered\">" +
+                   "<h3>Innovate on the Hill Picnic</h3><hr>" +
+                   "<p>See <a href=\"https://www.facebook.com/events/1638688863109744/\" target=\"_blank\">event details</a>.</p><hr>" + 
+                   "<time>September 9, 2016</time></li>",
+                   "Sept 2016",
+                   [".organizations", ".social", ".design", ".conferences", ".ideation"]),
+        new TEvent("<li class=\"is-hidden timeline-item centered\">" +
+                   "<h3>A Better World by Design</h3><hr>" +
+                   "<p>Learn more and sign up <a href=\"http://betterworldxdesign.com/\" target=\"_blank\">here</a>.</p><hr>" + 
+                   "<time>September 23-25, 2016</time></li>",
+                   "Sept 2016",
+                   [".organizations", ".conferences", ".design", ".ideation"]),
+        new TEvent("<li class=\"is-hidden timeline-item centered\">" +
                    "<h3>Startup at Brown</h3><hr>" +
-                   "<p>Apply <a href=\"http://startupatbrown.org/\">here</a> by September 25.</p><hr>" + 
+                   "<p>Apply <a href=\"http://startupatbrown.org/\" target=\"_blank\">here</a> by September 25.</p><hr>" + 
                    "<time>October 1, 2016</time></li>",
                    "Oct 2016",
                    [".learning", ".conferences", ".ideation"]),
         new TEvent("<li class=\"is-hidden timeline-item centered\">" +
+                   "<h3>B-Lab Applications Open</h3><hr>" +
+                   "<p>Check <a href=\"https://www.brown.edu/initiatives/summer-b-lab/\" target=\"_blank\">here</a> for updates on the application process.</p><hr>" + 
+                   "<time>January 1, 2017</time></li>",
+                   "Jan 2016",
+                   [".social", ".initiatives", ".prototyping", ".launching", ".testing"]),
+        new TEvent("<li class=\"is-hidden timeline-item centered\">" +
                    "<h3>Hack at Brown</h3><hr>" +
-                   "<p>Apply <a href=\"http://2017.hackatbrown.org/\">here</a> (applications opening soon).</p><hr>" + 
-                   "<time>February 4-5, 2016</time></li>",
+                   "<p>Apply <a href=\"http://2017.hackatbrown.org/\" target=\"_blank\">here</a> (applications opening soon).</p><hr>" + 
+                   "<time>February 4-5, 2017</time></li>",
                    "Feb 2017",
-                   [".initiatives", ".organizations", ".ideation", ".prototyping", ".testing"])
+                   [".initiatives", ".organizations", ".ideation", ".prototyping", ".testing"]),
+        new TEvent("<li class=\"is-hidden timeline-item centered\">" +
+                   "<h3>ChangeFest</h3><hr>" +
+                   "<p>Sign up and more information <a href=\"http://changefest.co/\" target=\"_blank\">here</a>.</p><hr>" + 
+                   "<time>April 22, 2017</time></li>",
+                   "Apr 2017",
+                   [".initiatives", ".organizations", ".ideation", ".prototyping", ".testing"]),
+        new TEvent("<li class=\"is-hidden timeline-item centered\">" +
+                   "<h3>SEEED Summit</h3><hr>" +
+                   "<p>Sign up and more information <a href=\"http://seeed.org/\" target=\"_blank\">here</a>.</p><hr>" + 
+                   "<time>April 28-29, 2017</time></li>",
+                   "Apr 2017",
+                   [".conferences", ".social", ".ideation", ".prototyping"])
+        
     ];
 
     function createTimeline(eventsList) {
@@ -40,7 +71,6 @@ $(document).ready(function () {
 
 
     function filterTimeline(filter) {
-        console.log(filter);
         if (filter === "*") {
             createTimeline(events);
         } else {
