@@ -1,0 +1,39 @@
+.row.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon {
+    display: flex;
+    padding-bottom: 40px;
+    /*height: 200px;*/
+    /*border: 5px solid red;*/
+}
+
+.icon * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-img {
+    width: 55%;
+}
+
+.title-page {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.title-page .title {
+    font-size: 48px;
+    margin: 0 0 2px 0;
+}
+
+.title-page .title-description {
+    font-size: 20px;
+    font-weight: 200;
+    margin: 0;
+    padding-bottom: 15px;
+}
