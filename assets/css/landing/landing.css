@@ -172,3 +172,11 @@ footer {
         margin-left: 0;
     }
 }
+
+#foot {
+    text-align: right;
+}
+
+#last-divider {
+    margin: 40px 0 !important;
+}
